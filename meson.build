@@ -281,7 +281,7 @@ ft_alias_headers = custom_target('ft_alias_headers',
 )
 
 # Do not reorder
-subdir('fc-case')
+#subdir('fc-case')
 subdir('fc-lang')
 subdir('src')
 subdir('fc-cache')
