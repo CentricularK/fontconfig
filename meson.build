@@ -78,7 +78,7 @@ check_alignofs = [
   ['double'],
 ]
 
-freetype_dep = dependency('freetype2', version: '>= 21.0.15', fallback: ['freetype2', 'freetype_dep'])
+freetype_dep = dependency('freetype2', version: '>= 2.9.1', fallback: ['freetype2', 'freetype_dep'])
 expat_dep = dependency('expat', fallback: ['expat', 'expat_dep'])
 
 c_args = ['-DHAVE_CONFIG_H']
